@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 40px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.info-frame {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid #3498db;
+}
+
+.info-frame h2 {
+    margin: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #3498db;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info-content p {
+    margin: 10px 0;
+    color: #34495e;
+    font-size: 16px;
+}
+
+.hobbies {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.hobbies h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #3498db;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    padding: 8px 0;
+    color: #34495e;
+    font-size: 16px;
+}
